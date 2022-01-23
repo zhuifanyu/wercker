@@ -1,7 +1,7 @@
 box: debian
 build:
   steps:
-    - arjen/hugo-build:
-        version: "0.14"
-        theme: herring-cove
-        flags: --buildDrafts=true
+  - arjen/hugo-build@2.14.0:
+      version: "0.74.3"
+      theme: herring-cove
+      flags: --buildDrafts=true
